@@ -1,0 +1,6 @@
+Quota Notification Applet
+Thomas Uphill <uphill at ias dot edu>
+
+This applet sets a status icon and checks quota usage every few mintes.  If the user goes over a 
+yellow or red set point, the icon changes color and an inotify is triggered to let the user know
+they are about to go over quota.  The user may also click on the icon to get current quota usage.

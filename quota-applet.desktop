@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Quota Notification Applet
+Comment=Adds a quota status icon to notification area
+Exec=/usr/libexec/quota-applet.py
+StartupNotify=false
